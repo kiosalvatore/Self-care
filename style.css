@@ -6,12 +6,18 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Calistoga&family=Lato:wght@300;400;700&family=Roboto:ital,wght@0,400;0,900;1,400&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 header {
     /*border: 2px solid black; */
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid rgba(0, 0, 0, 0.171);
-    
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.123);
 
 }
  .cabeçalho {
@@ -19,7 +25,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 50px;
+    box-shadow: 0px 1px 6px 0px rgba(0, 0, 0, 0.20);
+
     
+ }
+
+ .cabeçalho img {
+    /* border: 2px solid black; */
+    width: 10%;
+    margin-inline: 10px;
  }
 
  .banner {
@@ -36,22 +51,51 @@ header {
     width: 90%;
     height: 10vh;
     margin-left: 70px;
+    
  }
+.promo p {
+    font-weight: 700;
+}
+p.promo400 {
+    font-weight: 400;
+}
 
  .products {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
     display: flex;
     justify-content: space-around;
     margin-top: 15px;
  }
 
- section div {
-    border: 2px solid black;
+ .products button {
+    background-color: #5CA720;
+    color: white;
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.116);
+    width: 100px;
+    height: 40px;
+}
+
+.products button:hover {
+    background-color: #512200BD ;
+}
+
+ .products div {
+     /* border: 2px solid black; */
     display: inline-block;
+    border-radius: 5px;
+ }
+
+ footer {
+    background-color: #F9F9F9;
  }
 
 .data {
+    /* border: 2px solid red; */
+    padding-top: 50px;
+    margin-top: 30px;
     display: flex;
     flex: column;
     justify-content: space-between;
@@ -59,7 +103,10 @@ header {
 
 
 .politicas {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
     margin-left: 70px;
     width: 40vw;
     display: flex;
@@ -73,7 +120,26 @@ header {
     
 }
 
+.remarketing input {
+    height: 40px;
+}
+
+.remarketing button {
+    width: 100px;
+    height: 40px;
+    background-color: #5CA720;
+    color: white;
+    border-radius: 0px 5px 5px 0px;
+    border: none;
+}
+
+.remarketing button:hover {
+    background-color: #512200BD ;
+}
+
+
 .paysection {
+    margin-top: 40px;
     padding-top: 10px;
     padding-bottom: 10px;
     display: flex;
@@ -87,12 +153,22 @@ header {
     text-align: center  ;
 }
 
+.socials img {
+    height: 30px;
+}
+
 .payment {
     width: 20vw;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
 }
+
+.payment img {
+    height: 30px;
+}
+
+
 
 
 
