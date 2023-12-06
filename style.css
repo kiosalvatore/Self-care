@@ -106,6 +106,13 @@ p.promo400 {
     margin-top: 15px;
  }
 
+ .products img {
+   /* border: 2px solid black; */
+    height: 250px;
+
+    
+ }
+
  .products button {
     background-color: #5CA720;
     color: white;
@@ -114,18 +121,49 @@ p.promo400 {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.116);
     width: 100px;
     height: 40px;
+    margin-top: 5px;
+}
+
+h3 {
+    
+    /* border: 2px solid black; */
+    margin-block: 5px;
 }
 
 .products button:hover {
     background-color: #512200BD ;
 }
 
+
  .products div {
      /* border: 2px solid black; */
     display: inline-block;
-    border-radius: 5px;
  }
+spam{
+    color: #5CA720;
+    font-weight: bolder;
+    text-decoration: underline;
+    
+}
 
+figure {
+    /* border: 2px solid black; */
+    height: 250px;
+    background-color: #5CA720;
+    display: block; 
+    
+}
+
+.imgcard{
+    background-color: #5CA720;
+    
+}
+
+.imgcard:hover {
+
+    opacity: 0.5;
+}
+ 
  footer {
     background-color: #F9F9F9;
  }
@@ -175,6 +213,14 @@ p.promo400 {
     background-color: #512200BD ;
 }
 
+.remarketing p {
+    margin-bottom: 10px;
+    
+}
+.remarketing button {
+    margin-top: 10px;
+}
+
 input::placeholder {
     padding-left: 5px;
 }
@@ -207,6 +253,101 @@ input::placeholder {
 
 .payment img {
     height: 30px;
+}
+
+@media only screen and (max-width: 414px){
+    header{
+    width: 100%;
+    }
+    .logo {
+       /* border: 2px solid red; */
+        height: 30px;
+
+    }
+    .logo img {
+        width: 100%;
+    }
+    .search {
+       /* border: 2px solid black; */
+        width: 30%;
+    }
+    .search a {
+       /* border: 2px solid blue; */
+        width: 33%;
+    }
+    .promo p {
+    margin-inline: 20px;
+    }
+    .products  {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    .products div {
+        margin-top: 30px;
+    }
+    .products img {
+        height: 250px;
+        width: 100%;
+    }
+
+    .data {
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .politicas {
+        display: flex;
+        justify-content: start;
+        align-items: start;
+    }
+    .remarketing {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+
+    .remarketing input {
+       /* border: 2px solid black; */
+        width: 150%;
+    }
+    .remarketing button {
+        width: 150%;
+    }
+
+    .paysection {
+       /* border: 2px solid blue; */
+        width: 97%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .socials {
+        /* border: 2px solid black; */
+        display: flex;
+        justify-content: space-around;
+        width: 15%;
+    }
+
+    .socials img {
+        display: flex;
+        align-items: center;
+        height: 20px;
+    }
+    .payment {
+        width: 30%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .payment img{
+        /* border: 2px solid red; */
+        width: 30px;
+        height: 20px;
+    }
 }
 
 
