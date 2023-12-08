@@ -275,9 +275,11 @@ input::placeholder {
        /* border: 2px solid blue; */
         width: 33%;
     }
+
     .promo p {
     margin-inline: 20px;
     }
+
     .products  {
         display: flex;
         flex-direction: column;
@@ -316,6 +318,7 @@ input::placeholder {
     }
     .remarketing button {
         width: 150%;
+        border-radius: 5px;
     }
 
     .paysection {
@@ -424,6 +427,10 @@ input::placeholder {
             flex-direction: column;
             margin-top: 20px;
             margin-left: 70px;
+        }
+
+        .remarketing button {
+            border-radius: 5px;
         }
 
         .paysection {
