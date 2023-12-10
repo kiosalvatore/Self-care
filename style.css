@@ -139,7 +139,7 @@ h3 {
      /* border: 2px solid black; */
     display: inline-block;
  }
-spam{
+span{
     color: #5CA720;
     font-weight: bolder;
     text-decoration: underline;
@@ -329,7 +329,7 @@ input::placeholder {
     }
 
     .socials {
-        /* border: 2px solid black; */
+        /* border: 2px solid black; */ 
         display: flex;
         justify-content: space-around;
         width: 15%;
@@ -337,20 +337,23 @@ input::placeholder {
 
     .socials img {
         display: flex;
-        align-items: center;
+        align-items: end;
         height: 20px;
     }
     .payment {
-        width: 30%;
+        width: 35%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-evenly;
         align-items: center;
     }
     .payment img{
         /* border: 2px solid red; */
+        display: flex;
+        
         width: 30px;
-        height: 20px;
+        height: 25px;
     }
+
 }
 
 @media only screen and (min-width:415px) and (max-width:910px) {
@@ -434,7 +437,7 @@ input::placeholder {
         }
 
         .paysection {
-           /*  border: 2px solid blue; */ 
+            /* border: 2px solid blue; */  
              width: 90%;
              display: flex;
              justify-content: space-between;
@@ -451,7 +454,7 @@ input::placeholder {
          }
 
          .payment {
-           /* border: 2px solid black; */
+            /* border: 2px solid black; */ 
             margin-left: 20px;
             width: 25%;
          }
