@@ -178,17 +178,23 @@ figure {
 }
 
 
-.politicas {
+.politicas a {
     /* border: 2px solid blue; */
     font-weight: 600;
     font-size: 14px;
     line-height: 20px;
     margin-left: 70px;
     width: 40vw;
+    text-decoration: none;
+    color: black;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: start;
+}
+
+.politicas a:hover {
+    text-decoration: underline;
 }
 
 .remarketing {
