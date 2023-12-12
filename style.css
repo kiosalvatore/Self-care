@@ -108,8 +108,7 @@ p.promo400 {
 
  .products img {
    /* border: 2px solid black; */
-    height: 250px;
-
+    height: 250px;;
     
  }
 
@@ -136,8 +135,9 @@ h3 {
 
 
  .products div {
-     /* border: 2px solid black; */
+    /*  border: 2px solid black; */
     display: inline-block;
+    
  }
 span{
     color: #5CA720;
@@ -150,13 +150,14 @@ figure {
     /* border: 2px solid black; */
     height: 250px;
     background-color: #5CA720;
-    display: block; 
+    display: block;
+    border-radius: 5px; 
     
 }
 
 .imgcard{
     background-color: #5CA720;
-    
+    border-radius: 5px;
 }
 
 .imgcard:hover {
